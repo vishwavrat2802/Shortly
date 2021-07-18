@@ -27,6 +27,7 @@ const InnerBox = styled.div`
             case 'top': return `flex-Start`;
             case 'middle' : return `center`;
             case 'bottom' : return `flex-end`;
+            default: return `flex-Start`
         }
     }}
     }
